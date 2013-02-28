@@ -1,0 +1,24 @@
+* The whole log should look like this:
+
+Please input the file path (absolute path):
+/absolute/path/to/the/file/asso.csv
+--- MinSupport is set to 0.1, and MinConfidence is set to 0.9 ---
+--- start proccessing ---
+14 --> 12  : Support: 0.268 ; Confidence: 0.9146757679180888 ;
+16 --> 12  : Support: 0.259 ; Confidence: 0.9151943462897527 ;
+16 --> 14  : Support: 0.258 ; Confidence: 0.9116607773851592 ;
+14 16 --> 12  : Support: 0.257 ; Confidence: 0.9961240310077519 ;
+12 16 --> 14  : Support: 0.257 ; Confidence: 0.9922779922779923 ;
+12 14 --> 16  : Support: 0.257 ; Confidence: 0.958955223880597 ;
+16 --> 12 14  : Support: 0.257 ; Confidence: 0.9081272084805655 ;
+--- end proccessing ---
+
+* Namely, the result is:
+
+14 --> 12  : Support: 0.268 ; Confidence: 0.9146757679180888 ;
+16 --> 12  : Support: 0.259 ; Confidence: 0.9151943462897527 ;
+16 --> 14  : Support: 0.258 ; Confidence: 0.9116607773851592 ;
+14 16 --> 12  : Support: 0.257 ; Confidence: 0.9961240310077519 ;
+12 16 --> 14  : Support: 0.257 ; Confidence: 0.9922779922779923 ;
+12 14 --> 16  : Support: 0.257 ; Confidence: 0.958955223880597 ;
+16 --> 12 14  : Support: 0.257 ; Confidence: 0.9081272084805655 ;

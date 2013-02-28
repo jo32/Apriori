@@ -1,0 +1,5 @@
+Name, Relative contribution
+JIANG Dailin, 0.25
+DUAN Xu, 0.25
+ZHOU Tong, 0.25
+ZENG Huimin, 0.25
